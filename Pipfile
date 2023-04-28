@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 pandas = "*"
+typer = {extras = ["all"], version = "*"}
+rich = "*"
 
 [dev-packages]
 ipykernel = "*"
